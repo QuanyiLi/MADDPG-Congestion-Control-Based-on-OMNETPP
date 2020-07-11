@@ -112,7 +112,7 @@ class NetworkEnviroment(object):
 
         if self.readAction==False:
             for action in action_n:
-                if self.PG:
+                if self.PGorDQN:
                     rateall = (float(action)/10,float(action)/10,float(self.min_service_rate))
                 else:
                     rate1 = abs(action[0] - action[1])

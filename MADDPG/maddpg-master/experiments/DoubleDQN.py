@@ -186,7 +186,7 @@ def parse_args():  #
     parser.add_argument("--exp-name", type=str, default="test1", help="name of the experiment")
     parser.add_argument("--save-dir", type=str, default="../policy/policy",
                         help="directory in which training state and model should be saved")
-    parser.add_argument("--save-rate", type=int, default=10,
+    parser.add_argument("--save-rate", type=int, default=50,
                         help="save model once every time this many episodes are completed")
     parser.add_argument("--load-dir", type=str, default="",
                         help="directory in which training state and model are loaded")

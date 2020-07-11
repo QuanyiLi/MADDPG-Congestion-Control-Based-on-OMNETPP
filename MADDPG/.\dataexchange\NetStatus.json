@@ -1,0 +1,50 @@
+{
+   "NetStatus" : [
+      {
+         "DropProb" : 0.0,
+         "Name" : "Switch1",
+         "OBS" : [ 0, 0, 0, 0 ],
+         "Overflow" : 0,
+         "QueueLength" : 0,
+         "gate0" : 0,
+         "gate1" : 0,
+         "gate2" : 0,
+         "peers" : [ "Switch2", "Switch4" ]
+      },
+      {
+         "DropProb" : 0.0,
+         "Name" : "Switch2",
+         "OBS" : [ 0, 0, 0, 0 ],
+         "Overflow" : 0,
+         "QueueLength" : 0,
+         "gate0" : 0,
+         "gate1" : 0,
+         "gate2" : 0,
+         "peers" : [ "Switch1", "Switch3" ]
+      },
+      {
+         "DropProb" : 0.0,
+         "Name" : "Switch3",
+         "OBS" : [ 0, 0, 0, 0 ],
+         "Overflow" : 0,
+         "QueueLength" : 0,
+         "gate0" : 0,
+         "gate1" : 0,
+         "gate2" : 0,
+         "peers" : [ "Switch2", "Switch4" ]
+      },
+      {
+         "DropProb" : 0.0,
+         "Name" : "Switch4",
+         "OBS" : [ 0, 0, 0, 0 ],
+         "Overflow" : 0,
+         "QueueLength" : 0,
+         "gate0" : 0,
+         "gate1" : 0,
+         "gate2" : 0,
+         "peers" : [ "Switch3", "Switch1" ]
+      }
+   ],
+   "SimTime" : 1,
+   "TimeInterval" : 1.0
+}

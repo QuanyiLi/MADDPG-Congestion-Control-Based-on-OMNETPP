@@ -27,7 +27,7 @@ All the communication between these two processes is finished by .json file.
 
 Hmmmm, don't laugh at me. Actually, the time consuming is mainly from the simulation, thus I don't optimize it.
 
-The requirement is ```gym == 0.10.0, tensorflow == 1.2.1, matplotlib and python == 3.6```
+The requirement is ```gym == 0.10.0, tensorflow == 1.8.0, matplotlib and python == 3.6```
 
 
 ## Other Info

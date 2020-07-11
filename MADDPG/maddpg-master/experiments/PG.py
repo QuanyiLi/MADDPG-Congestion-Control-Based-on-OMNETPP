@@ -182,7 +182,7 @@ def train(arglist,obs_shape,agent_num,act_space_dim):
 
     with U.single_threaded_session():
         # Create environment Important to config its here
-        env = environment.NetworkEnviroment(obs_shape,agent_num,act_space_dim)
+        env = environment.NetworkEnviroment(obs_shape,agent_num,act_space_dim,True)
         # Create agent trainers
         obs_shape_n = [env.obs_shape for i in range(env.n)]  # 元组集合，每个元组是一个agent的obs
         #  n个agents观测空间的集合,tuple 不允许add/del以及修改

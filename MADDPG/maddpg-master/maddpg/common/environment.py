@@ -7,9 +7,8 @@ import io
 
 
 class NetworkEnviroment(object):
-    def __init__(self, obs_shape, num, act_space_n):
+    def __init__(self, obs_shape, num, act_space_n,baseline):
         self.obs_space = obs_shape[0]
-        self.act_space = act_space_n
         self.obs_shape = obs_shape
         self.n = num
         # self.action_space = [gym.spaces.Discrete(act_space_n) for i in range(num)]
@@ -28,7 +27,9 @@ class NetworkEnviroment(object):
         self.readAction = False
         self.ActionJson = "../../trainingprocess/BestAction.json"
         self.jsonf =0
-        self.PG = True
+        self.PGorDQN = baseline
+        self.act_space = act_space_n if self.PGorDQN else [gym.spaces.Discrete(act_space_n)
+        for i in range(num)]
         # self.max_done_count = 5
         # self.done_count = [0 for i in range(num)]
 

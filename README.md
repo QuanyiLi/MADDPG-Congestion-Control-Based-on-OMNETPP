@@ -9,6 +9,10 @@ If you only want to access the code, use ```git clone```, and it won't pull vide
 
 ## Code
 Source code of algorithm can be accessed. 
+It's messy now. 
+
+####I'll refactor the whole project soon.
+
 
 ## Run and Train Your Model
 By the compiled MADDPG.exe, you can train your own model !!!

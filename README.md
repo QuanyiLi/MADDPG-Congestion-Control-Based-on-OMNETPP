@@ -10,8 +10,6 @@ If you only want to access the code, use ```git clone```, and it won't pull vide
 ## Code
 Source code of algorithm can be accessed. 
 
-The code of .cc files will be released soon. Now you can only access the c++ header files of the TE-Env. 
-
 ## Run and Train Your Model
 By the compiled MADDPG.exe, you can train your own model !!!
 
@@ -27,7 +25,7 @@ All the communication between these two processes is finished by .json file.
 
 Hmmmm, don't laugh at me. Actually, the time consuming is mainly from the simulation, thus I don't optimize it.
 
-The requirement is ```gym == 0.10.0, tensorflow == 1.8.0, matplotlib and python == 3.6```
+The requirement is ```gym == 0.10.5, tensorflow == 1.8.0, matplotlib and python == 3.6```
 
 
 ## Other Info

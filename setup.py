@@ -9,5 +9,5 @@ setup(name='MADDPG Congestion Control on OMNET++',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['gym==0.10.0', 'tensorflow=1.2.0','matplotlib']
+      install_requires=['gym==0.10.0', 'tensorflow==1.2.0','matplotlib']
 )

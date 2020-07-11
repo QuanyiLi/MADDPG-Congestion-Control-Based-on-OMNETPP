@@ -5,7 +5,9 @@ Now, the experiment video can be accessed. A simple mehod is downloading them fr
 
 Since we use LFS to upload videos, if you want to clone project including videos, use ```git lfs clone``` to pull this repo instead of ```git clone```.
 
-If you only want to access the code, use ```git clone```, and it won't pull videos from LFS.
+If you only want to access the code, use ```git clone```, and it won't pull videos from LFS. 
+
+(Besides, anyone could tell me where can I upload my experiment videos ????, my lfs bandwith is really small)
 
 ## Code
 Source code of algorithm can be accessed. 
@@ -15,6 +17,7 @@ It's messy now.
 
 
 ## Run and Train Your Model
+
 By the compiled MADDPG.exe, you can train your own model !!!
 
 ```import this repo to omnet++, choose MADDPG.exe, then [run as] --> [run configuration].```

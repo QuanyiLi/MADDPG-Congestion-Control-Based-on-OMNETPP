@@ -7,8 +7,6 @@ Since we use LFS to upload videos, if you want to clone project including videos
 
 If you only want to access the code, use ```git clone```, and it won't pull videos from LFS. 
 
-(Besides, anyone could tell me where can I upload my experiment videos ????, my lfs bandwith is really small)
-
 ## Code
 Source code of algorithm can be accessed. 
 It's messy now. 

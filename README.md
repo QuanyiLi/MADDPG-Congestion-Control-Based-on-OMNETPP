@@ -1,15 +1,14 @@
 # MADDPG-Congestion-Control-Based-on-OMNETPP
 
 ## Videos
-Now, the experiment video can be accessed. A simple mehod is downloading them from ExperimentsVideo.zip
+Now, the experiment video can be accessed by downloading them from ExperimentsVideo.zip
 
 Since we use LFS to upload videos, if you want to clone project including videos, use ```git lfs clone``` to pull this repo instead of ```git clone```.
 
 If you only want to access the code, use ```git clone```, and it won't pull videos from LFS. 
 
 ## Code
-Source code of algorithm can be accessed. 
-It's messy now. 
+Source code of algorithm can be accessed.  
 
 #### I'll refactor the whole project soon.
 
@@ -24,11 +23,11 @@ By the compiled MADDPG.exe, you can train your own model !!!
 
 Sadly, it's unconvienient that you should also run one algorithm with python after you launched a omnet++ simulation in it's ide.
 
-Due to some error of omnetpp, I can not run this MADDPG.exe by python in multi-thread.
+Due to some error of omnetpp, I can not run this MADDPG.exe in python with multi-thread support.
 
-All the communication between these two processes is finished by .json file. 
+All the communication between these two processes is implemented by .json file. 
 
-Hmmmm, don't laugh at me. Actually, the time consuming is mainly from the simulation, thus I don't optimize it.
+Actually, the time consuming is mainly from the simulation, and I don't optimize it yet.
 
 The requirement is ```gym == 0.10.5, tensorflow == 1.8.0, matplotlib and python == 3.6```
 
@@ -37,7 +36,7 @@ The requirement is ```gym == 0.10.5, tensorflow == 1.8.0, matplotlib and python 
 
 The MADDPG algorithm is revised from OpenAI https://github.com/openai/maddpg. Visit their website for more details.
 
-Any question can contact me at: liquanyi@bupt.edu.cn
+Any question can contact me at: quanyili0057@gmail.com
 
 
 
